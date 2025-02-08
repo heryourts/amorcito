@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors
+
 import 'package:flutter/material.dart';
 
 class ConfirmationScreen extends StatelessWidget {
@@ -11,8 +13,14 @@ class ConfirmationScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Image.asset(
+                "assets/images/2.jpeg", 
+                height: 300,
+                fit: BoxFit.contain,
+              ),
+              SizedBox(height: 20,),
               Text(
-                "Lo sabía, Mai lof! 💖",
+                "Lo sabía, Mai lof!!! 💖💖💖 TE AMO MUCHO MUCHO MUCHO",
                 style: TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.bold,
