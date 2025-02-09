@@ -30,7 +30,7 @@ class ConfirmationScreen extends StatelessWidget {
               ),
               SizedBox(height: 20),
               Text(
-                "Sabía que dirías que sí UwU 💕",
+                "Sabía que dirías que sí UwU, Te amo mucho mucho mucho con todo mi cosaron mi nutrita 💕",
                 style: TextStyle(fontSize: 22, color: Colors.black87),
                 textAlign: TextAlign.center,
               ),

@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors
+
 import 'package:amorcito/confirmatio_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -10,12 +12,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ValentineScreen(),
+      home: Main(),
     );
   }
 }
 
-class ValentineScreen extends StatelessWidget {
+class Main extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -63,15 +65,15 @@ class ValentineScreen extends StatelessWidget {
                 padding: EdgeInsets.symmetric(horizontal: 40, vertical: 20), // Más padding
               ),
               child: SizedBox(
-                width: double.infinity, // Ocupa todo el ancho disponible
+                width: double.infinity, 
                 child: Text(
                   "Sí, no hay más opciones, juasjuasjuas 😆",
                   style: TextStyle(
-                    fontSize: 22, // Tamaño del texto aumentado
+                    fontSize: 22, 
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
                   ),
-                  textAlign: TextAlign.center, // Centrado
+                  textAlign: TextAlign.center, 
                 ),
               ),
             ),
